@@ -8,13 +8,13 @@ namespace Rekursion
 {
     public class rekursion
     {
-        public static int fakultät(int n)
+        public static int fakultaet(int n)
         {
             if (n == 0)
                 return 1;
 
             else
-                return n * fakultät(n - 1);
+                return n * fakultaet(n - 1);
         }
 
 
