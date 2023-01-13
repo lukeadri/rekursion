@@ -8,7 +8,7 @@ using Rekursion;
 
 namespace Test
 {
-    public class Tests
+    public class RecursionTests
     {
         [SetUp]
         public void Setup()
@@ -16,15 +16,15 @@ namespace Test
         }
 
         [Test]
-        public void fakultätof5()
+        public void fakultae_5_120()
         {
             rekursion factorial = new rekursion();
-            int result = rekursion.fakultät(5);
+            int result = rekursion.fakultaet(5);
             Assert.AreEqual(120, result);
         }
 
         [Test]
-        public void fibonacciof4()
+        public void fibonacci_4_3()
         {
             rekursion factorial = new rekursion();
             int result = rekursion.fibonacci(4);
